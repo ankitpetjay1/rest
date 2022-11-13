@@ -1,4 +1,4 @@
-sudo apt-get install python-rpi.gpio
+sudo apt-get install python-rpi.gpio  
 sudo nano led.py
 
 ```python
