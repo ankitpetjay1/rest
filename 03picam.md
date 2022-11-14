@@ -2,27 +2,28 @@
 
 ### Step 2: Open the terminal  
 
-sudo raspi-config  
-> Then select Interfacing options in which select Camera option to enable its functionality
+Run `sudo raspi-config`  
+Then select Interfacing options in which select Camera option to enable its functionality
 
-sudo reboot
-> To restart Raspi for changes to take effect.
+Run `sudo reboot`
 
 **Optional**  
-sudo apt-get install python-picamera python3-picamera
+`sudo apt-get install python-picamera python3-picamera`
 
-**Optional: Quick capture method**
-- Picture
-raspistill -o image.jpg  
+**Optional: Quick capture method**  
 
-- Video
-raspivid -o video.h264  
+Picture
+`raspistill -o image.jpg`  
+
+Video
+`raspivid -o video.h264`  
+
 
 ### Step 3: Write Python code for picture
 
 **For Picture**  
 
-sudo nano camera.py
+Run `sudo nano camera.py`
 
 ```python
 import picamera  
@@ -37,11 +38,11 @@ camera.capture('image1.jpeg')
 camera.stop_preview()
 ```
 
-sudo python camera.py
+Run `sudo python camera.py`
 
 **For video**  
 
-sudo nano recording.py  
+Run `sudo nano recording.py`  
 
 ```python
 import picamera  
@@ -57,4 +58,4 @@ camera.close()
 print('Video recording stopped')
 ```
 
-sudo python recording.py
+Run `sudo python recording.py`
