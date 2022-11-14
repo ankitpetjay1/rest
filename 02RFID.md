@@ -11,20 +11,20 @@ lsmod | grep spi
 
 ### Install python3-dev, python-pip and git packages
 
-sudo apt-get install python3-dev python3-pip
-cd
-pwd
-git clone https://github.com/lthiery/SPI-Py.git
-ls
-cd SPI-Py/
-pwd
-ls
-sudo python setup.py install
-git clone https://github.com/pimylifeup/MFRC522-python.git
-ls
-cd MFRC522-python/
-ls
-pwd
+sudo apt-get install python3-dev python3-pip  
+cd  
+pwd  
+git clone https://github.com/lthiery/SPI-Py.git  
+ls  
+cd SPI-Py/  
+pwd  
+ls  
+sudo python setup.py install  
+git clone https://github.com/pimylifeup/MFRC522-python.git  
+ls  
+cd MFRC522-python/  
+ls  
+pwd  
 
 ### Write.py file
 
