@@ -1,7 +1,8 @@
 ### Getting Python ready for the RFID RC522  
 
 sudo apt-get update  
-sudo apt-get upgrad
+sudo apt-get upgrade
+sudo pip install mfrc522
 
 ### Setting up Raspbian for the RFID RC522
 
