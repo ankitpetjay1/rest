@@ -1,3 +1,5 @@
+# Design the simulation of tic – tac – toe game using min-max algorithm.
+
 import os
 import time
 board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ']
