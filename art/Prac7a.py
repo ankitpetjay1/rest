@@ -1,3 +1,5 @@
+# Write a program to shuffle Deck of cards.
+
 #first let's import random procedures since we will be shuffling
 import random
 #next, let's start building list holders so we can place our cards in there:
