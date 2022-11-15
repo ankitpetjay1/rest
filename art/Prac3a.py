@@ -1,3 +1,5 @@
+# Write a program to solve tower of Hanoi problem.
+
 tree = [[[5, 1, 2], [8, -8, -9]], [[9, 4, 5], [-3, 4, 3]]]
 root = 0
 pruned = 0
