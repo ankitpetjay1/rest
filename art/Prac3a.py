@@ -1,4 +1,4 @@
-# Write a program to solve tower of Hanoi problem.
+# Write a program to implement alpha beta search.
 
 tree = [[[5, 1, 2], [8, -8, -9]], [[9, 4, 5], [-3, 4, 3]]]
 root = 0
