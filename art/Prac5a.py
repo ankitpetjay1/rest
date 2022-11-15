@@ -1,4 +1,4 @@
-# Write a program to solve Missionaries and Cannibals problem.
+# Write a program to solve water jug problem.
 
 # 3 water jugs capacity -> (x,y,z) where x>y>z
 # initial state (12,0,0)
