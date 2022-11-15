@@ -1,3 +1,5 @@
+# Solve traveling salesman problem using artificial intelligence technique.
+
 from sys import maxsize
 from itertools import permutations
 V = 4
