@@ -1,3 +1,5 @@
+# Write a program to implement AO* algorithm.
+
 def recAOStar(n):
     global finalPath
     print("Expanding Node:",n)
