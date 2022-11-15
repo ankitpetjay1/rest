@@ -1,3 +1,5 @@
+# Write a program to implement alpha beta search.
+
 import math
 
 increment = 0.1
