@@ -1,3 +1,5 @@
+# Write a program to simulate 4-Queen / N-Queen problem.
+
 class QueenChessBoard:
     def __init__(self, size):
         # board has dimensions size x size
