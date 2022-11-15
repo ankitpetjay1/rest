@@ -1,3 +1,5 @@
+# Write a program to implement A* algorithm.
+
 from simpleai.search import SearchProblem, astar
 
 GOAL = 'HELLO WORLD'
