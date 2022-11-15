@@ -1,3 +1,5 @@
+# Write a program to solve tower of Hanoi problem.
+
 def moveTower(height, fromPole, toPole, withPole):
     if height >= 1:
         moveTower(height-1, fromPole, withPole, toPole)
