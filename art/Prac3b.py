@@ -1,4 +1,4 @@
-# Write a program to implement alpha beta search.
+# Write a program for Hill climbing problem.
 
 import math
 
