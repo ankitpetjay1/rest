@@ -1,3 +1,5 @@
+# Write a program to solve Missionaries and Cannibals problem.
+
 import math
 
 #______________________________________________________________________________
